@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+:root {
+  --main-color: rgba(0, 0, 0, 0.4);
+}
+body {
+  background: url("./more-pejzazh-priroda-46891.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+.container {
+  text-align: center;
+  margin-bottom: 30px;
+  /* border: 1px solid black; */
+  width: 600px;
+  height: 500px;
+  margin-top: 50px;
+
+  background-color: var(--main-color);
+  box-shadow: inset -5px -5px var(--main-color);
+  border-radius: 40px;
+}
+.container h1 {
+  color: rgb(222, 210, 210);
+  font-size: 45px;
+  margin: 35px;
+
+  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+}
+.container .form-control input {
+  padding: 14px;
+  margin: 20px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  width: 60%;
+  background-color: var(--main-color);
+  color: white;
+  box-shadow: inset -3px -3px var(--main-color);
+}
+.container button {
+  padding: 14px 20px;
+  margin-top: 50px;
+  width: 60%;
+  border-radius: 20px;
+}
