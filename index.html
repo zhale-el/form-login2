@@ -8,24 +8,26 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <h1>login</h1>
-      <form>
-        <div class="form-control">
-          <input type="text" placeholder="username..." />
-          <label>username</label>
-        </div>
-        <div class="form-control">
-          <input type="email" placeholder="email..." />
-          <label>email user</label>
-        </div>
-        <div class="form-control">
-          <input type="password" placeholder="password" />
-          <label>password</label>
-        </div>
-      </form>
-      <button>login</button>
-      <p>don't have an account?<a href="#">sign in</a></p>
+    <div class="main">
+      <div class="boxes">
+        <h1>login</h1>
+        <form action="" method="">
+          <div class="input-bx">
+            <input type="text" name="username" autocomplete="off" required />
+            <label for="username">username</label>
+          </div>
+          <div class="input-bx">
+            <input
+              type="password"
+              name="password"
+              autocomplete="off"
+              required
+            />
+            <label for="password">password</label>
+          </div>
+          <input type="submit" value="login" />
+        </form>
+      </div>
     </div>
   </body>
 </html>
